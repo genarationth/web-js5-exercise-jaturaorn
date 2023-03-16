@@ -21,9 +21,21 @@
 //     console.log(temp)
 // }
 
-let xValue = 7;
+// let xValue = 7;
 
-while (xValue > 0) {
-  console.log(xValue);
-  xValue -= 0.5; 
-}
+// while (xValue > 0) {
+//   console.log(xValue);
+//   xValue -= 0.5; 
+// }
+
+function SQBackets(n) {
+    let i = 1;
+    let result = '';
+    while (i <= n) {
+      result += `[${i}] `;
+      i++;
+    }
+    console.log(result);
+  }
+  
+  SQBackets(10);
