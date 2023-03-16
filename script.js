@@ -1,4 +1,4 @@
-const people = ['Sofia', 'David', 'Juan'];
+// const people = ['Sofia', 'David', 'Juan'];
 //FIFO
 // people.push('Sara','Augustin');
 // people.shift();
@@ -13,10 +13,17 @@ const people = ['Sofia', 'David', 'Juan'];
 //     console.log(temp);
 // }
 
-for (let i=1; i<=5; i++){
-    let temp = ''
-    for (let j=1; j<=i; j++){
-        temp += ''
-    }
-    console.log(temp)
+// for (let i=1; i<=5; i++){
+//     let temp = ''
+//     for (let j=1; j<=i; j++){
+//         temp += ''
+//     }
+//     console.log(temp)
+// }
+
+let xValue = 7;
+
+while (xValue > 0) {
+  console.log(xValue);
+  xValue -= 0.5; 
 }
