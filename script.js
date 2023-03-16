@@ -28,14 +28,23 @@
 //   xValue -= 0.5; 
 // }
 
-function SQBackets(n) {
-    let i = 1;
-    let result = '';
-    while (i <= n) {
-      result += `[${i}] `;
-      i++;
-    }
-    console.log(result);
-  }
+// function SQBackets(n) {
+//     let i = 1;
+//     let result = '';
+//     while (i <= n) {
+//       result += `[${i}] `;
+//       i++;
+//     }
+//     console.log(result);
+//   }
   
-  SQBackets(10);
+//   SQBackets(10);
+
+let sum = 0;
+let n = 0;
+while(n<=8){
+  sum += n;
+  n++;
+}
+console.log(sum);
+// console.log(n);
